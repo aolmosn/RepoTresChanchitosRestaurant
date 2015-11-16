@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrador\Escritorio\Restaurante Tres Chanchito\dllTresChanchitos\DLLRestauranteTresChanchitos\DLLRestauranteTresChanchitos\bin\Debug\DLLRestauranteTresChanchitos.dll
+C:\Documents and Settings\Administrador\Escritorio\Restaurante Tres Chanchito\dllTresChanchitos\DLLRestauranteTresChanchitos\DLLRestauranteTresChanchitos\bin\Debug\DLLRestauranteTresChanchitos.pdb
+C:\Documents and Settings\Administrador\Escritorio\Restaurante Tres Chanchito\dllTresChanchitos\DLLRestauranteTresChanchitos\DLLRestauranteTresChanchitos\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Escritorio\Restaurante Tres Chanchito\dllTresChanchitos\DLLRestauranteTresChanchitos\DLLRestauranteTresChanchitos\obj\Debug\DLLRestauranteTresChanchitos.dll
+C:\Documents and Settings\Administrador\Escritorio\Restaurante Tres Chanchito\dllTresChanchitos\DLLRestauranteTresChanchitos\DLLRestauranteTresChanchitos\obj\Debug\DLLRestauranteTresChanchitos.pdb

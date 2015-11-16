@@ -1,0 +1,164 @@
+// FILE: C:/Documents and Settings/Administrador/Escritorio/Restaurante Tres Chanchito/dllTresChanchitos/DLLRestauranteTresChanchitos/DLLRestauranteTresChanchitos//Ingrediente.cs
+
+using java.lang;
+
+// In this section you can add your own using directives
+    // section -84-17-6-96-22000729:15110a8e74c:-8000:0000000000000F9C begin
+    // section -84-17-6-96-22000729:15110a8e74c:-8000:0000000000000F9C end
+
+/// <summary>
+    /// Clase Ingrediente que seran contenidos por los productos del restaurant
+     /// </summary>
+public class Ingrediente: Listar
+{    /* {author=Andrés Olmos, version=1.1.0}*/
+
+    // Attributes
+
+    private int Ingrediente_id_ingrediente;
+
+    private int Ingrediente_nombre_ingrediente;
+
+    private Float Ingrediente_cantidad;
+
+    private int Ingrediente_id_tipoIngredinte;
+
+    // Operations
+
+    /// <summary>
+    /// Ingresar un nuevo ingrediente a la base de datos
+    /// </summary>
+    /// <param name="nuevo_ingrediente">
+    /// Objeto ingrediente que se desea ingresar
+    /// </param>
+    /// <returns>
+    /// Retorna verdadero si se ingreso el ingrediente, falso si no se ingreso.
+    /// </returns>
+    public  bool nuevo_Ingrediente(Ingrediente nuevo_ingrediente)
+    {
+    /* {author=Andrés Olmos}*/
+    // section -84-17-6-96-22000729:15110a8e74c:-8000:0000000000000FA9 begin
+    // section -84-17-6-96-22000729:15110a8e74c:-8000:0000000000000FA9 end
+
+    }
+
+    /// <summary>
+    /// Modificar ingrediente de la base de datos
+    /// </summary>
+    /// <param name="id_ingrediente">
+    /// Identificador del ingrediente que se desea modificar
+    /// </param>
+    /// <param name="nuevos_datos_ingrediente">
+    /// Objeto ingrediente que reemplazara al objeto de la base de datos
+    /// </param>
+    /// <returns>
+    /// Retorna verdadero si se modifico el ingrediente, false si no se logro modificar el ingrediente
+    /// </returns>
+    public  bool modifica_Ingrediente(int id_ingrediente, Ingrediente nuevos_datos_ingrediente)
+    {
+    /* {author=Andrés Olmos, version=1.1.0, deprecated=true}*/
+    // section -84-17-6-96-22000729:15110a8e74c:-8000:0000000000000FB4 begin
+    // section -84-17-6-96-22000729:15110a8e74c:-8000:0000000000000FB4 end
+
+    }
+
+    /// <summary>
+    /// Elimina un ingrediente de la base de datos
+    /// </summary>
+    /// <param name="id_ingrediente">
+    /// Identificador del ingrediente que se desea modificar
+    /// </param>
+    /// <returns>
+    /// Retorna verdadero si se eliminó el ingrediente, falso si no se eliminó el ingrediente
+    /// </returns>
+    public  bool eliminar_Ingrediente(int id_ingrediente)
+    {
+    /* {author=Andés Olmos, version=1.1.0, see=	}*/
+    // section -84-17-6-96-22000729:15110a8e74c:-8000:0000000000000FC6 begin
+    // section -84-17-6-96-22000729:15110a8e74c:-8000:0000000000000FC6 end
+
+    }
+
+    /// <summary>
+    /// Valida la existencia de un ingrediente en la Base de Datos.
+    /// </summary>
+    /// <param name="nombre_ingrediente">
+    /// Nombre del ingrediente que se desea validar.
+    /// </param>
+    /// <returns>
+    /// Retorna verdadero si se encontro una coincidencia, falso si no se encontraron coincidencias.
+    /// </returns>
+    public  bool validar_Ingrediente(String nombre_ingrediente)
+    {
+    /* {author=Andrés Olmos, version=1.1.0}*/
+    // section -84-17-6-96-22000729:15110a8e74c:-8000:0000000000000FC9 begin
+    // section -84-17-6-96-22000729:15110a8e74c:-8000:0000000000000FC9 end
+
+    }
+
+    /// <summary>
+    /// Valida la existencia de un ingrediente en la Base de Datos.
+    /// </summary>
+    /// <param name="id_ingrediente">
+    /// Identificador del ingrediente que se desea comparar.
+    /// </param>
+    /// <returns>
+    /// Retorna verdadero si se encontro una coincidencia, falso si no se encontraron coincidencias.
+    /// </returns>
+    public  bool validar_Ingrediente(int id_ingrediente)
+    {
+    // section -84-17-6-96-22000729:15110a8e74c:-8000:0000000000000FCC begin
+    // section -84-17-6-96-22000729:15110a8e74c:-8000:0000000000000FCC end
+
+    }
+
+    /// <summary>
+    /// Llena un control GridView con todos los tipos de ingrediente existente.
+    /// </summary>
+    /// <param name="control_GridView">
+    /// Control GridView que se desea llenar.
+    /// </param>
+    /// <param name="id_tipo_ingrediente">
+    /// Identificador tipo de ingrediente por el cual se desea filtrar.
+    /// </param>
+    /// <returns>
+    /// </returns>
+    public  void Listar_GridView(GridView control_GridView, int id_tipo_ingrediente)
+    {
+    /* {author=Andrés Olmos, version=1.1.0}*/
+    // section -84-17-6-96--478e66b2:151112d6a17:-8000:0000000000001109 begin
+    // section -84-17-6-96--478e66b2:151112d6a17:-8000:0000000000001109 end
+
+    }
+
+    public /// <summary>
+    /// Llena un control DropDownList con todos los tipos de ingrediente existente.
+    /// </summary>
+    /// <param name="control_DropDownList">
+    /// Control DropDownList que se desea llenar.
+    /// </param>
+    /// <returns>
+    /// </returns>
+     void Listar_DropDownList(DropDownList control_DropDownList)
+    {
+    /* {author=Andrés Olmos, version=1.1.0}*/
+    // section -84-17-6-96--478e66b2:151112d6a17:-8000:00000000000010E2 begin
+    // section -84-17-6-96--478e66b2:151112d6a17:-8000:00000000000010E2 end
+
+    }
+
+    public /// <summary>
+    /// Llena un control GridView con todos los tipos de ingrediente existente.
+    /// </summary>
+    /// <param name="control_GridView">
+    /// Control GridView que se desea llenar.
+    /// </param>
+    /// <returns>
+    /// </returns>
+     void Listar_GridView(GridView control_GridView)
+    {
+    /* {author=Andrés Olmos, version=1.1.0}*/
+    // section -84-17-6-96--478e66b2:151112d6a17:-8000:00000000000010E5 begin
+    // section -84-17-6-96--478e66b2:151112d6a17:-8000:00000000000010E5 end
+
+    }
+} /* end class Ingrediente */

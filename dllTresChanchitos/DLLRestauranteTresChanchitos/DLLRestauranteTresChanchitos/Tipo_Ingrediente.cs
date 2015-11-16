@@ -1,0 +1,128 @@
+// FILE: C:/Documents and Settings/Administrador/Escritorio/Restaurante Tres Chanchito/dllTresChanchitos/DLLRestauranteTresChanchitos/DLLRestauranteTresChanchitos//Tipo_Ingrediente.cs
+
+// In this section you can add your own using directives
+    // section -84-17-6-96-22000729:15110a8e74c:-8000:0000000000001008 begin
+    // section -84-17-6-96-22000729:15110a8e74c:-8000:0000000000001008 end
+
+/// <summary>
+    /// Tipos de ingrediente de cada ingrediente
+     /// </summary>
+public class Tipo_Ingrediente: Listar
+{    /* {author=Andrés Olmos, version=1.1.0}*/
+
+    // Attributes
+
+    private int Tipo_Ingrediente_id_tipo_ingrediente;
+
+    private string Tipo_Ingrediente_descripcion;
+
+    // Operations
+
+    /// <summary>
+    /// Crea un nuevo tipo de ingrediente en la Base de Datos.
+    /// </summary>
+    /// <param name="nuevo_tipo_ingrediente">
+    /// Objeto ingrediente que se agregara en la Base de Datos.
+    /// </param>
+    /// <returns>
+    /// Retorna verdadero si se ingresó el tipo de ingrediente deseado, falso si no se pudo ingresar.
+    /// </returns>
+    public  void ingresar_Tipo_Ingrediente(Tipo_Ingrediente nuevo_tipo_ingrediente)
+    {
+    /* {author=Andrés Olmos, version=1.1.0}*/
+    // section -84-17-6-96-22000729:15110a8e74c:-8000:000000000000100C begin
+    // section -84-17-6-96-22000729:15110a8e74c:-8000:000000000000100C end
+
+    }
+
+    /// <summary>
+    /// Modifíca un tipo de ingredientes de la Base de Datos.
+    /// </summary>
+    /// <param name="id_tipo_ingrediente">
+    /// Identificador del tipo de ingredinte que se desea modificar.
+    /// </param>
+    /// <param name="nombre_tipo_ingrediente">
+    /// Nombre por el cual sera reemplazado el tipo de ingrediente en la base de datos.
+    /// </param>
+    /// <returns>
+    /// Retorna verdadero si se modificó correctamente, falso si no se pudo modificar.
+    /// </returns>
+    public  bool modificar_Tipo_Ingrediente(int id_tipo_ingrediente, int nombre_tipo_ingrediente)
+    {
+    /* {author=Andrés Olmos, version=1.1.0}*/
+    // section -84-17-6-96-22000729:15110a8e74c:-8000:0000000000001037 begin
+    // section -84-17-6-96-22000729:15110a8e74c:-8000:0000000000001037 end
+
+    }
+
+    /// <summary>
+    /// Elimina un tipo de ingrediente de la Base de Datos.
+    /// </summary>
+    /// <param name="id_tipo_ingrediente">
+    /// Identificador del tipo de ingrediente que se desea eliminar.
+    /// </param>
+    /// <returns>
+    /// Retorna un verdadero si se eliminó correctamente, falso si ocurrio un error al eliminar.
+    /// </returns>
+    public  bool Eliminar_tipo_ingrediente(int id_tipo_ingrediente)
+    {
+    /* {author=Andrés Olmos, version=1.1.0}*/
+    // section -84-17-6-96-22000729:15110a8e74c:-8000:0000000000001048 begin
+    // section -84-17-6-96-22000729:15110a8e74c:-8000:0000000000001048 end
+
+    }
+
+    /// <summary>
+    /// Valida que exista un tipo de ingrediente
+    /// </summary>
+    /// <param name="id_tipo_ingrediente">
+    /// Identificacion que se desea comparar.
+    /// </param>
+    /// <returns>
+    /// Retorna verdadero si se encontro coincidencia, falso si no se encontró coincidencia.
+    /// </returns>
+    public  bool Validar_Tipo_Ingrediente(int id_tipo_ingrediente)
+    {
+    /* {author=Andrés Olmos, version=1.1.0}*/
+    // section -84-17-6-96--478e66b2:151112d6a17:-8000:00000000000010C0 begin
+    // section -84-17-6-96--478e66b2:151112d6a17:-8000:00000000000010C0 end
+
+    }
+
+    public /// <summary>
+    /// Llena un control DropDownList con todos los tipos de ingrediente existente.
+    /// </summary>
+    /// <param name="control_DropDownList">
+    /// Control DropDownList que se desea llenar.
+    /// </param>
+    /// <returns>
+    /// </returns>
+     void Listar_DropDownList(DropDownList control_DropDownList)
+    {
+    /* {author=Andrés Olmos, version=1.1.0}*/
+    // section -84-17-6-96--478e66b2:151112d6a17:-8000:00000000000010E2 begin
+    // section -84-17-6-96--478e66b2:151112d6a17:-8000:00000000000010E2 end
+
+    }
+
+    public /// <summary>
+    /// Llena un control GridView con todos los tipos de ingrediente existente.
+    /// </summary>
+    /// <param name="control_GridView">
+    /// Control GridView que se desea llenar.
+    /// </param>
+    /// <returns>
+    /// </returns>
+     void Listar_GridView(GridView control_GridView)
+    {
+    /* {author=Andrés Olmos, version=1.1.0}*/
+    // section -84-17-6-96--478e66b2:151112d6a17:-8000:00000000000010E5 begin
+    // section -84-17-6-96--478e66b2:151112d6a17:-8000:00000000000010E5 end
+
+    }
+} /* end class Tipo_Ingrediente */
+/* lost code following: 
+    // section -84-17-6-96--478e66b2:151112d6a17:-8000:00000000000010CD begin
+    // section -84-17-6-96--478e66b2:151112d6a17:-8000:00000000000010CD end
+    // section -84-17-6-96--478e66b2:151112d6a17:-8000:00000000000010D9 begin
+    // section -84-17-6-96--478e66b2:151112d6a17:-8000:00000000000010D9 end
